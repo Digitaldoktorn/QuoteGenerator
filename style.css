@@ -52,13 +52,18 @@ button {
 #welcome {
   font-family: 'Karla', sans-serif;
   font-size: 18px;
-  text-transform: capitalize;
+  line-height: 28px;
   color: #333;
 }
 
 #content {
   font-family: 'Marck Script', cursive;
   font-size: 45px;
+}
+
+#content-long {
+  font-family: 'Marck Script', cursive;
+  font-size: 32px;
 }
 
 #author {
