@@ -1,0 +1,34 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:wght@400;600;800&family=Marck+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Quote Generator</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Quote Generator</h1>
+      </header>
+      <main>
+        <div class="quotes" id="quotes">
+          <p id="content"></p>
+          <p id="author"></p>
+          <p><span id="tag"></span></p>
+          <div class="buttons">
+            <button onclick="generateQuotes()">Start</button>
+            <button onclick="clearInterval(start)">Stop</button>
+          </div>
+        </div>
+      </main>
+    </div>
+    <footer>2021 Simplicity Web & Design</footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+}
+
+header {
+  background-color: lightsteelblue;
+  text-align: center;
+}
+
+main {
+  flex: 1;
+  background-color: lightgoldenrodyellow;
+}
+
+footer {
+  padding: 2em;
+  font-family: 'Karla', sans-serif;
+  color: #fff;
+  background-color: darkblue;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Karla', sans-serif;
+  font-size: 54;
+}
+
+button {
+  width: 5em;
+  padding: 0.3em;
+  font-family: 'Karla', sans-serif;
+  font-size: 14px;
+  text-align: center;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.quotes {
+  margin: auto;
+  margin-top: 2em;
+  text-align: center;
+  background-color: white;
+  width: 600px;
+  padding: 2em;
+}
+
+#content {
+  font-family: 'Marck Script', cursive;
+  font-size: 45px;
+}
+
+#author {
+  font-family: 'Karla', sans-serif;
+  font-size: 28px;
+  text-transform: capitalize;
+  color: darkgoldenrod;
+}
+
+#tag {
+  font-family: 'Karla', sans-serif;
+  font-size: 14;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: darkblue;
+  padding: 0.5em;
+}
