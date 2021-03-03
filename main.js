@@ -6,7 +6,7 @@ async function generateQuotes() {
     document.getElementById('content').innerHTML = data.content
     document.getElementById('author').innerHTML = data.author
     document.getElementById('tag').innerHTML = data.tags.join(' | ')
-    console.log(data.length)
+    // console.log(data.length)
   } else {
     return null
   }
