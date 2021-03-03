@@ -7,29 +7,58 @@
       href="https://fonts.googleapis.com/css2?family=Karla:wght@400;600;800&family=Marck+Script&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="bootstrap.min.css" />
     <link rel="stylesheet" href="style.css" />
-    <title>Quote Generator</title>
+    <title>The Quote Generator</title>
   </head>
   <body>
     <div class="container">
-      <header>
-        <h1>Quote Generator</h1>
-      </header>
       <main>
-        <div class="quotes" id="quotes">
-          <p id="welcome"></p>
-          <p id="content"></p>
-          <p id="content-long"></p>
-          <p id="author"></p>
-          <p><span id="tag"></span></p>
-          <div class="buttons">
-            <button onclick="generateQuotes()">Start</button>
-            <button onclick="clearInterval(start)">Pause</button>
+        <div class="quotes mb-4" id="quotes">
+          <!-- <p id="welcome"></p> -->
+
+          <div class="card mb-3">
+            <h3 class="card-header">
+              The Quote Generator<br />
+            </h3>
+
+            <img src="https://picsum.photos/540/200" />
+            <div class="card-body">
+              <p id="content"></p>
+              <!-- <p id="content-long"></p> -->
+              <img id="img" />
+              <p id="author"></p>
+              <br />
+              <span id="tag" class="badge badge-pill badge-secondary"></span>
+              <br />
+              <br />
+              <div class="buttons">
+                <button
+                  onclick="generateQuotes()"
+                  type="button"
+                  class="btn btn-primary"
+                >
+                  Start
+                </button>
+                <button
+                  onclick="clearInterval(start)"
+                  type="button"
+                  class="btn btn-danger"
+                >
+                  Pause
+                </button>
+              </div>
+              <br>
+              <audio controls autoplay>
+                <source src="audio/Track01.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+              </audio>
+            </div>
           </div>
         </div>
       </main>
+      <footer>2021 Simplicity Web & Design</footer>
     </div>
-    <footer>2021 Simplicity Web & Design</footer>
 
     <script src="main.js"></script>
   </body>

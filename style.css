@@ -2,35 +2,27 @@ body {
   margin: 0;
 }
 
-header {
-  background-color: lightsteelblue;
-  text-align: center;
-}
-
 main {
   flex: 1;
-  background-color: lightgoldenrodyellow;
+  background-color: #444;
 }
 
 footer {
-  padding: 2em;
+  padding: 0.5em;
   font-family: 'Karla', sans-serif;
   color: #fff;
-  background-color: darkblue;
+  background-color: #222;
   text-align: center;
 }
 
-h1 {
+h2 {
   font-family: 'Karla', sans-serif;
-  font-size: 54;
+  font-size: 48;
 }
 
-button {
-  width: 5em;
-  padding: 0.3em;
+h3 {
   font-family: 'Karla', sans-serif;
-  font-size: 18px;
-  text-align: center;
+  font-size: 28;
 }
 
 .container {
@@ -49,35 +41,18 @@ button {
   padding: 2em;
 }
 
-#welcome {
-  font-family: 'Karla', sans-serif;
-  font-size: 18px;
-  line-height: 28px;
-  color: #333;
-}
-
 #content {
-  font-family: 'Marck Script', cursive;
-  font-size: 45px;
-}
-
-#content-long {
   font-family: 'Marck Script', cursive;
   font-size: 32px;
 }
 
 #author {
   font-family: 'Karla', sans-serif;
-  font-size: 28px;
-  text-transform: capitalize;
+  font-size: 16px;
+  text-transform: uppercase;
   color: darkgoldenrod;
 }
 
 #tag {
-  font-family: 'Karla', sans-serif;
-  font-size: 14;
-  text-transform: uppercase;
-  color: #fff;
-  background-color: darkblue;
-  padding: 0.5em;
+  font-size: 13px;
 }
